@@ -1,0 +1,57 @@
+{
+  "base": "Qwen/Qwen3-VL-2B-Instruct",
+  "revision": "89644892e4d85e24eaac8bacfd4f463576704203",
+  "instruction": "Return a JSON object with two fields. \"readings\" is a list of [category, numeric value] pairs in any order. Use the scale printed on the chart. \"ranking\" is a list of category names from highest to lowest. Copy the category names given in the question. Include all requested categories in both fields.",
+  "sft": {
+    "base": "7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0",
+    "batch": 8,
+    "counts": {
+      "3": 2000,
+      "4": 2000,
+      "5": 2000,
+      "6": 2000
+    },
+    "dev": "212ced3402dade29c3a7775d0ef2b0a3f5c1e960db4971c69647b2e0942c0e76",
+    "epoch": 1,
+    "initial": "76007140a1d546a4dd9db663e0d3e5f3b97be1fe0926bd39606438d361a92e44",
+    "instruction": "Return a JSON object with two fields. \"readings\" is a list of [category, numeric value] pairs in any order. Use the scale printed on the chart. \"ranking\" is a list of category names from highest to lowest. Copy the category names given in the question. Include all requested categories in both fields.",
+    "lr": 3e-05,
+    "n": 8000,
+    "seed": 20261124,
+    "steps": 1000,
+    "target": "descending readings rounded to chart resolution; explicit ordering",
+    "train_gold": "f815c51a3165ba22e77162822eb99c9558c31b6965f9df02bf40a1340c685e7f",
+    "train_input": "c2095b3ec5d52ee3b9ccd3e52d9f94d9b1d548ff5a8cfe8f36ba0c80b49e5b39"
+  },
+  "grpo": {
+    "epochs": 1,
+    "steps": 64,
+    "lr": 1e-05,
+    "questions_per_step": 4,
+    "group": 4,
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "top_k": 0,
+    "max_completion_length": 512,
+    "init_sha": "1ef098827f8d7711d54805c73ed28831d89bdcd580c651be6e2efd7e4d73a315",
+    "joint": "80% target readings + 10% correct pairs + 10% joint exact",
+    "beta": 0
+  },
+  "seeds": [
+    20261125,
+    20261126
+  ],
+  "checkpoints": {
+    "multi_sft": "1ef098827f8d7711d54805c73ed28831d89bdcd580c651be6e2efd7e4d73a315",
+    "rl_seed1": "d3a62286695d0f87734ee3a5eccf39d22f626ce887c4e7c175bababd7a68ea81",
+    "rl_seed2": "8714af29de9bdc9aeec4459d28c176c06ad38abcdc22c7135e9f433a7fb22e87"
+  },
+  "software": {
+    "torch": "2.8.0",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "trl": "0.24.0",
+    "accelerate": "1.11.0",
+    "datasets": "4.3.0"
+  }
+}

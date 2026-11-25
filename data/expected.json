@@ -1,0 +1,48 @@
+{
+  "plotqa": {
+    "sft": {
+      "questions": 512,
+      "targets": 2304,
+      "correct": 2106,
+      "direct": 345,
+      "sorted": 349
+    },
+    "seed1": {
+      "questions": 512,
+      "targets": 2304,
+      "correct": 2230,
+      "direct": 433,
+      "sorted": 448
+    },
+    "seed2": {
+      "questions": 512,
+      "targets": 2304,
+      "correct": 2253,
+      "direct": 459,
+      "sorted": 472
+    }
+  },
+  "chartqa": {
+    "sft": {
+      "questions": 256,
+      "targets": 1152,
+      "correct": 1087,
+      "direct": 138,
+      "sorted": 217
+    },
+    "seed1": {
+      "questions": 256,
+      "targets": 1152,
+      "correct": 1097,
+      "direct": 141,
+      "sorted": 225
+    },
+    "seed2": {
+      "questions": 256,
+      "targets": 1152,
+      "correct": 1094,
+      "direct": 138,
+      "sorted": 220
+    }
+  }
+}

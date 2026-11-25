@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 133" role="img" aria-labelledby="title desc">
+  <title id="title">2006 年读数评分示意</title>
+  <desc id="desc">允许区间约为 59.978% 到 61.978%。两个强化学习模型回答 61%，落在区间内。监督微调回答 62%，略超上限。</desc>
+  <rect width="640" height="133" rx="14" fill="#f2f7f7"/>
+  <g font-family="system-ui, 'Microsoft YaHei', sans-serif" font-size="15" fill="#213e49">
+    <text x="20" y="26" font-size="16" font-weight="650">2006 年 · 数值区间</text>
+    <path d="M60 76 H572" stroke="#98aab1" stroke-width="2"/>
+    <path d="M171 76 H492" stroke="#9ad2c3" stroke-width="13"/>
+    <path d="M171 65 V88 M492 65 V88" stroke="#225b52" stroke-width="2"/>
+    <circle cx="335" cy="76" r="7" fill="#066350"/>
+    <path d="M335 64 V47" stroke="#066350"/><text x="335" y="41" text-anchor="middle" fill="#066350" font-weight="650">两个 RL 种子 · 61%</text>
+    <circle cx="496" cy="76" r="5.5" fill="#a34827"/>
+    <path d="M496 67 L517 48" stroke="#a34827"/><text x="519" y="43" text-anchor="middle" fill="#873919" font-weight="650">SFT · 62%</text>
+    <text x="171" y="110" text-anchor="middle">59.978%</text>
+    <text x="335" y="110" text-anchor="middle" fill="#225b52">允许范围</text>
+    <text x="492" y="110" text-anchor="middle">61.978%</text>
+  </g>
+</svg>

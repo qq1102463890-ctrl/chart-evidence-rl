@@ -1,0 +1,53 @@
+{
+  "qid": "plotqa:test:rank:6691:3",
+  "question": "For the series \"Female\", read the values of these 3 categories: [\"2006\", \"2004\", \"2005\"]. Rank these categories from highest value to lowest.",
+  "targets": [
+    "2006",
+    "2004",
+    "2005"
+  ],
+  "gold": {
+    "axis": "Persistence rate to the last grade of primary education (%)",
+    "unit_aliases": {
+      "%": [
+        "percent",
+        "percentage",
+        "per cent",
+        "Persistence rate to the last grade of primary education (%)"
+      ]
+    },
+    "ordering": [
+      "2004",
+      "2005",
+      "2006"
+    ],
+    "evidence": [
+      {
+        "entity": "2005",
+        "value": "69.5937576293945",
+        "unit": "%",
+        "reading_min": "68.5937576293945",
+        "reading_max": "70.5937576293945"
+      },
+      {
+        "entity": "2004",
+        "value": "74.1343612670898",
+        "unit": "%",
+        "reading_min": "73.1343612670898",
+        "reading_max": "75.1343612670898"
+      },
+      {
+        "entity": "2006",
+        "value": "60.9776802062988",
+        "unit": "%",
+        "reading_min": "59.9776802062988",
+        "reading_max": "61.9776802062988"
+      }
+    ]
+  },
+  "responses": {
+    "sft": "{\"readings\": [[\"2004\", 74], [\"2005\", 70], [\"2006\", 62]], \"ranking\": [\"2004\", \"2005\", \"2006\"]}",
+    "seed1": "{\"readings\": [[\"2004\", 74], [\"2005\", 70], [\"2006\", 61]], \"ranking\": [\"2004\", \"2005\", \"2006\"]}",
+    "seed2": "{\"readings\": [[\"2004\", 74], [\"2005\", 70], [\"2006\", 61]], \"ranking\": [\"2004\", \"2005\", \"2006\"]}"
+  }
+}
