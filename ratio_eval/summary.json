@@ -1,0 +1,56 @@
+{
+  "base/dev": {
+    "direct": 0,
+    "n": 768,
+    "read": 2145,
+    "targets": 3456
+  },
+  "base/plotqa": {
+    "direct": 0,
+    "n": 512,
+    "read": 1162,
+    "targets": 2304
+  },
+  "base/benetech": {
+    "direct": 6,
+    "n": 256,
+    "read": 434,
+    "targets": 1152
+  },
+  "sft/dev": {
+    "direct": 565,
+    "n": 768,
+    "read": 3232,
+    "targets": 3456
+  },
+  "sft/plotqa": {
+    "direct": 378,
+    "n": 512,
+    "read": 2181,
+    "targets": 2304
+  },
+  "sft/benetech": {
+    "direct": 27,
+    "n": 256,
+    "read": 401,
+    "targets": 1152
+  },
+  "rl/dev": {
+    "direct": 635,
+    "n": 768,
+    "read": 3366,
+    "targets": 3456
+  },
+  "rl/plotqa": {
+    "direct": 436,
+    "n": 512,
+    "read": 2261,
+    "targets": 2304
+  },
+  "rl/benetech": {
+    "direct": 31,
+    "n": 256,
+    "read": 476,
+    "targets": 1152
+  }
+}

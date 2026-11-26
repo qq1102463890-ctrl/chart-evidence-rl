@@ -1,0 +1,38 @@
+{
+  "plotqa/base": {
+    "targets": 2304,
+    "valid": 317,
+    "agrees_005": 7,
+    "median_error_ticks": 1.9
+  },
+  "plotqa/sft": {
+    "targets": 2304,
+    "valid": 2283,
+    "agrees_005": 410,
+    "median_error_ticks": 0.25
+  },
+  "plotqa/rl": {
+    "targets": 2304,
+    "valid": 2254,
+    "agrees_005": 244,
+    "median_error_ticks": 0.375
+  },
+  "benetech/base": {
+    "targets": 1152,
+    "valid": 143,
+    "agrees_005": 12,
+    "median_error_ticks": 2.0
+  },
+  "benetech/sft": {
+    "targets": 1152,
+    "valid": 1055,
+    "agrees_005": 126,
+    "median_error_ticks": 0.5
+  },
+  "benetech/rl": {
+    "targets": 1152,
+    "valid": 1060,
+    "agrees_005": 85,
+    "median_error_ticks": 0.65
+  }
+}

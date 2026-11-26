@@ -1,0 +1,57 @@
+{
+  "qid": "fb7f90a0c040",
+  "targets": [
+    "The Conjuring (2013)",
+    "I am Legend (2007)",
+    "Hannibal\n(2001)",
+    "The Ring (2002)"
+  ],
+  "gold": {
+    "evidence": [
+      {
+        "entity": "The Conjuring (2013)",
+        "reading_max": "143.0",
+        "reading_min": "133.0",
+        "unit": "million USD",
+        "value": "138.0"
+      },
+      {
+        "entity": "I am Legend (2007)",
+        "reading_max": "298.0",
+        "reading_min": "288.0",
+        "unit": "million USD",
+        "value": "293.0"
+      },
+      {
+        "entity": "Hannibal\n(2001)",
+        "reading_max": "233.0",
+        "reading_min": "223.0",
+        "unit": "million USD",
+        "value": "228.0"
+      },
+      {
+        "entity": "The Ring (2002)",
+        "reading_max": "180.0",
+        "reading_min": "170.0",
+        "unit": "million USD",
+        "value": "175.0"
+      }
+    ],
+    "ordering": [
+      "I am Legend (2007)",
+      "Hannibal\n(2001)",
+      "The Ring (2002)",
+      "The Conjuring (2013)"
+    ],
+    "unit_aliases": {
+      "million USD": [
+        "million dollars"
+      ]
+    }
+  },
+  "responses": {
+    "base": "```json\n{\n  \"axis_positions\": [\n    [0, 50, 0],\n    [50, 100, 0.5],\n    [100, 150, 0.5],\n    [150, 200, 0.5],\n    [200, 250, 0.5],\n    [250, 300, 0.5],\n    [300, 350, 0.5]\n  ],\n  \"readings\": [\n    [\"The Conjuring (2013)\", 140],\n    [\"I am Legend (2007)\", 280],\n    [\"Hannibal (2001)\", 220],\n    [\"The Ring (2002)\", 180]\n  ],\n  \"ranking\": [\n    [\"I am Legend (2007)\", 280],\n    [\"Hannibal (2001)\", 220],\n    [\"The Ring (2002)\", 180],\n    [\"The Conjuring (2013)\", 140]\n  ]\n}\n```",
+    "sft": "{\"axis_positions\": [[250, 300, 0.85], [150, 200, 0.8], [100, 150, 0.7], [100, 150, 0.5]], \"readings\": [[\"I am Legend (2007)\", 287.5], [\"Hannibal (2001)\", 230], [\"The Ring (2002)\", 175], [\"The Conjuring (2013)\", 125]], \"ranking\": [\"I am Legend (2007)\", \"Hannibal (2001)\", \"The Ring (2002)\", \"The Conjuring (2013)\"]}",
+    "rl": "{\"axis_positions\": [[250, 300, 0.95], [200, 250, 0.9], [150, 200, 0.85], [100, 150, 0.8]], \"readings\": [[\"I am Legend (2007)\", 287.5], [\"Hannibal (2001)\", 225], [\"The Ring (2002)\", 175], [\"The Conjuring (2013)\", 140]], \"ranking\": [\"I am Legend (2007)\", \"Hannibal (2001)\", \"The Ring (2002)\", \"The Conjuring (2013)\"]}"
+  }
+}
